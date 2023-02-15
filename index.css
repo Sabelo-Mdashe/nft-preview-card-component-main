@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+  padding: 1.5em;
+  background-color: hsl(216, 50%, 16%);
+  width: 17rem;
+  border-radius: 0.5em;
+}
+
+img {
+  width: 100%;
+  border-radius: 0.5em;
+}
+
+/* ACTIVE STATES */
+
+img:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+h1:active,
+h1:hover,
+.creator_name:active,
+.creator_name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 18px;
+  width: fit-content;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+  opacity: 0.5;
+}
+
+.days {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ethereum {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+  display: flex;
+  gap: 0.5em;
+}
+
+.time {
+  color: white;
+  opacity: 0.5;
+  display: flex;
+  gap: 0.5em;
+}
+
+hr {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  opacity: 0.5;
+}
+
+.creator_info {
+  color: white;
+}
+
+.creator {
+  opacity: 0.5;
+}
+
+.card_footer {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.avatar {
+  width: 10%;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
