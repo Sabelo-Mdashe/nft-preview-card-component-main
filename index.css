@@ -5,6 +5,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: hsl(217, 54%, 11%);
+  overflow-y: hidden;
 }
 
 .container {
